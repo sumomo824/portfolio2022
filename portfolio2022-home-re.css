@@ -1,0 +1,248 @@
+
+@media(max-width:900px){
+    /* --- */
+    .more{
+        font-size:20px;
+    }
+    h1{
+        font-size:30px;
+    }
+    /* - トップ - */
+    .heading-1,.heading-2{
+        font-size:40px ;
+    }
+    .nav a{
+        line-height:40px;
+        font-size:20px;
+    }
+    /* - スキル - */
+    .img03 li{
+        font-size:14px;
+        list-style:none;
+        line-height:25px;
+    }
+    .LR03,.RR03{
+        margin-left:15px;
+    }
+    /* - プロダクト - */
+    .img04 img{
+        width:50%;
+    }
+    .products p{
+        font-size:20px;
+    }
+    .s-txt04{
+        font-size:14px;
+    }
+    /* - 思い - */
+    .txt05{
+        padding:5px;
+        text-align:center;
+    }
+    .txt05 h1{
+        margin-bottom:20px;
+    }
+    /* - コンタクト - */
+    .img06{
+        width:40%;
+    }
+    .txt06{
+        width:60%;
+    }
+    .hide06{
+        font-size:18px;
+    }
+    .icon06 i{
+        font-size:100px;
+    }
+}
+/*  
+@media(min-width:601px){
+    
+}
+*/
+@media(max-width:600px){
+  /* --- */
+  body{
+      font-size:14px;
+  }
+  .container{
+    width:100%;
+    max-width:none;
+    margin-bottom:20px;
+}
+h1{
+    font-size:20px;
+}
+.more{
+    font-size:16px;
+}
+/* - Top - */
+.top-view{
+    padding:0;
+    border:none;
+}
+.top-contents{
+    flex-direction:row-reverse;
+}
+.content01-1{
+    width:45%;
+    padding-right:3%;
+    position:relative;
+}
+.content01-2{
+    width:55%;
+    overflow: hidden;
+}
+.content01-2 img{
+    width:150%;
+    margin-left:-50%;
+}
+.content01-3{
+    width:0%;
+    display:none;
+}
+.heading-1,.heading-2{
+    font-size:30px ;
+    text-align:right;
+}
+.heading-1{
+    position:absolute;
+    top:20%;  
+    right:10%;
+}
+.heading-2{
+    position:absolute;
+    top:30%;
+    right:10%;
+}
+#hide-list{
+    display:block;
+}
+/* - アバウト - */
+.second-contents{
+    height:100vh;
+    display:block;
+}
+.content02-1{
+    margin:0 auto;
+    width:70%;
+}
+.content02-2{
+    margin:0 auto;
+    width:90%;
+}
+/* - スキル - */
+.third-view{
+    height:100vh;
+    overflow: hidden;
+}
+.img03{
+    overflow:hidden;
+    position:relative;
+}
+.img03 img{
+    width:230%;
+    margin-left:-100%;
+}
+.img03 h1{
+    position:absolute;
+    top:10%;
+    left:25%;
+}
+.L-list03{
+    position:absolute;
+    top:20%;
+    left:25%;
+}
+.R-list03{
+    position:absolute;
+    top:31%;
+    left:25%;
+}
+.img03 a{
+    position:absolute;
+    top:50%;
+    left:55%;
+}
+/* - プロダクト - */
+.forth-view{
+    height:100vh;
+    padding-top: 10px;
+
+}
+.box04{
+    display:flex;
+    flex-direction:row;
+}
+.products{
+    display:block;
+    width:70%;
+}
+.list04{
+    display:none;
+}
+.active{
+    display:block;
+}
+.products li{
+    width:100%;
+}
+/**/
+.box04-1,.box04-2{
+    display:block;
+}
+.more04{
+    margin-top:10px;
+}
+/* - 思い - */
+.fifth-view{
+    display:flex;
+    align-items:center;
+    height:100vh;
+}
+.content05{
+    display:flex;
+    flex-direction:row-reverse;
+    
+}
+.img05{
+    overflow:hidden;
+    width:45%;
+    vertical-align: middle;
+}
+.txt05{
+    width:55%;
+    padding:5%;
+    vertical-align: middle;
+}
+#main-img05{
+    display:none;
+}
+#hide-img05{
+    display:block;
+    
+}
+#hidden05{
+    display:block;
+}
+.txt05 h1{
+    display:none;
+}
+/* - コンタクト - */
+.bottom-view{
+    height:30%;
+}
+.content06{
+    display:block;
+}
+.img06{
+    display:none;
+}
+
+/* - フッター - */
+.footer{
+    background-color: #C7A23A;
+}
+
+}
