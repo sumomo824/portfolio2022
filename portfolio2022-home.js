@@ -9,6 +9,11 @@ $(function(){
     $('.container00').toggleClass('fade');
     $('body').toggleClass('no-scroll');
   });
+  $('#contact-close').click(function(){
+        $('#hide-list').removeClass('close');
+        $('.container00').removeClass('fade');
+        $('body').removeClass('no-scroll');
+    });
   
   /* 画像変化 */
   if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
